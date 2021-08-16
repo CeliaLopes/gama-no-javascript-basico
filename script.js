@@ -4,7 +4,7 @@ function validaCPF(cpf){
     console.log(length.cpf);
     if (cpf.length != 11){
         return false;
-
+            //
     } else {
 
         var numeros = cpf.substring(0, 9);
